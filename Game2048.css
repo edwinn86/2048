@@ -1,0 +1,116 @@
+
+td{
+    width: 100px;
+    height: 100px;
+
+    border: 10px;
+    border-style: solid;
+    border-width: 5px;
+
+    text-align: center; 
+    vertical-align: middle;
+}
+
+#replaceable{
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        min-height: 100vh;
+    
+}
+
+#welcomeMessage{
+
+    position: relative;
+    left: 12%;
+    top: 80px;
+    font-weight: 700;
+}
+
+html{
+    background-color: rgb(208, 96, 193);
+}
+
+h1{
+
+   font-size: 30px;
+   font-weight: 750;
+
+   text-align: center; 
+   vertical-align: middle;
+   position: relative;
+   top: 20px;
+
+}
+
+h2{
+
+    font-size: 30px;
+   font-weight: 750;
+
+   text-align: center; 
+   vertical-align: middle;
+   position: relative;
+   top: 20px;
+
+}
+
+h3{
+
+    font-size: 30px;
+   font-weight: 750;
+
+   text-align: center; 
+   vertical-align: middle;
+   position: relative;
+   top: 20px;
+}
+
+h4{
+
+    font-size: 30px;
+   font-weight: 750;
+
+   text-align: center; 
+   vertical-align: middle;
+   position: relative;
+
+   top: 20px;
+}
+
+#loseDiv{
+    position: fixed;
+    top: 50%;
+    left: 46%;
+    transform: translate(-50%, -50%);
+
+    font-size: 60px;
+    font-weight: bolder;
+    color: rgb(240, 5, 5);
+}
+
+#scoreDiv{
+    position: absolute;
+    left: 31.5%;
+    top:83%;
+
+    font-size: 25px;
+    font-weight: 400
+
+}
+
+#resetButton{
+    position: relative;
+    right: 110px;
+    top:230px;
+
+    font-size: 17px;
+    font-weight: 500;
+
+    background-color: rgb(219, 220, 219);
+    color: rgb(0, 0, 0);
+
+
+}

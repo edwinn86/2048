@@ -1,0 +1,15 @@
+{
+  "name": "2048",
+  "version": "1.0.0",
+  "description": "2048 game",
+  "main": "Game2048.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "browser-sync": "^2.27.5",
+    "bulma": "^0.9.3"
+  }
+}
