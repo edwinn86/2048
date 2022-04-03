@@ -44,6 +44,7 @@ td{
     grid-row: 1 /2;
     grid-column: 1 / 11;
     font-weight: 700;
+    font-size: 20px;
     justify-self: center;
     align-self: center;
 }
